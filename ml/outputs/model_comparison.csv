@@ -1,0 +1,5 @@
+model_name,input_type,test_accuracy,test_loss,f1_macro,f1_weighted,epochs_trained,model_file
+CNN-BiLSTM Hybrid,seq,0.9676,0.1456,0.9638,0.9676,60,cnn-bilstm_hybrid.keras
+1D CNN,seq,0.9491,0.1829,0.9488,0.9491,54,1d_cnn.keras
+MLP Baseline,1d,0.8241,0.7396,0.8152,0.8229,30,mlp_baseline.keras
+BiLSTM,seq,0.5586,1.232,0.5249,0.5408,6,bilstm.keras

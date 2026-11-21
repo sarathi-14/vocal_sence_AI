@@ -1,0 +1,42 @@
+[
+  {
+    "model_name": "CNN-BiLSTM Hybrid",
+    "input_type": "seq",
+    "test_accuracy": 0.9676,
+    "test_loss": 0.1456,
+    "f1_macro": 0.9638,
+    "f1_weighted": 0.9676,
+    "epochs_trained": 60,
+    "model_file": "cnn-bilstm_hybrid.keras"
+  },
+  {
+    "model_name": "1D CNN",
+    "input_type": "seq",
+    "test_accuracy": 0.9491,
+    "test_loss": 0.1829,
+    "f1_macro": 0.9488,
+    "f1_weighted": 0.9491,
+    "epochs_trained": 54,
+    "model_file": "1d_cnn.keras"
+  },
+  {
+    "model_name": "BiLSTM",
+    "input_type": "seq",
+    "test_accuracy": 0.5586,
+    "test_loss": 1.232,
+    "f1_macro": 0.5249,
+    "f1_weighted": 0.5408,
+    "epochs_trained": 6,
+    "model_file": "bilstm.keras"
+  },
+  {
+    "model_name": "MLP Baseline",
+    "input_type": "1d",
+    "test_accuracy": 0.8241,
+    "test_loss": 0.7396,
+    "f1_macro": 0.8152,
+    "f1_weighted": 0.8229,
+    "epochs_trained": 30,
+    "model_file": "mlp_baseline.keras"
+  }
+]
